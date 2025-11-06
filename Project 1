@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Title One – Edward Turney Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            color: #222222;
+            line-height: 1.6;
+        }
+        header {
+            padding: 30px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #222222;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+        }
+
+        /* --- Project Detail Styles --- */
+        .project-header-image {
+            width: 100%;
+            height: auto;
+            max-height: 500px; /* Adjust as needed */
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        
+        .project-content h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2-column gallery */
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .project-gallery img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+        /* --- End of Project Styles --- */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Edward Turney</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <h2>Project Title One</h2>
+        <p><em>*Brief project summary*</em></p>
+
+        <img src="https://via.placeholder.com/900x500" alt="Project 1 Main Image" class="project-header-image">
+
+        <div class="project-content">
+            <h3>Overview</h3>
+            <p>*Project detail, challenges, problems solves, skills learned etc.*</p>
+
+            <h3>My Role & Process</h3>
+            <p>*contribution, role, process, etc*</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <h3>Solution & Results</h3>
+            <p>*Final solution, outcome, how problem solved, metrics, contriubutions to field, lessons learned, etc.*</p>
+
+            <div class="project-gallery">
+                <img src="https://via.placeholder.com/440" alt="Project detail image 1">
+                <img src="https://via.placeholder.com/440" alt="Project detail image 2">
+                <img src="https://via.placeholder.com/440" alt="Project detail image 3">
+                <img src="https://via.placeholder.com/440" alt="Project detail image 4">
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        © Edward Turney— Portfolio Site
+    </footer>
+</body>
+</html>
